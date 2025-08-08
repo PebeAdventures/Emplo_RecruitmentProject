@@ -19,4 +19,13 @@ public class VacationService
         var remaining = granted - usedDays;
         return remaining >= 0 ? remaining : 0;
     }
+
+    /// <summary>
+    /// Checks if the employee can request a vacation based on remaining vacation days.
+    /// </summary>
+    public bool CanRequestVacation(EmployeeVacationContext context)
+    {
+        int remainingDays = CountFreeDaysForEmployee(context);
+        return remainingDays > 0;
+    }
 }
