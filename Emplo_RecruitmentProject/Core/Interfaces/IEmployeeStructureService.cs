@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Emplo_RecruitmentProject.Core.Services;
+namespace Emplo_RecruitmentProject.Core.Interfaces;
 public interface IEmployeeStructureService
 {
     List<EmployeeStructure> FillEmployeesStructure(List<Employee> employees);

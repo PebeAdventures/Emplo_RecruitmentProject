@@ -1,4 +1,5 @@
 ﻿using Emplo_RecruitmentProject.Core.DTOs;
+using Emplo_RecruitmentProject.Core.Interfaces;
 using Emplo_RecruitmentProject.Core.Models;
 
 namespace Emplo_RecruitmentProject.Core.Services;
