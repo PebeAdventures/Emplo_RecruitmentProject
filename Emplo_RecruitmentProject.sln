@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emplo_RecruitmentProject", "Emplo_RecruitmentProject\Emplo_RecruitmentProject.csproj", "{2C4E773F-5344-430E-8D22-C421D3F4384D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emplo_RecruitmentProject.Tests", "Emplo_RecruitmentProject.Tests\Emplo_RecruitmentProject.Tests.csproj", "{02E3EE58-BEF5-4AE4-B7A5-671F2A637E3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2C4E773F-5344-430E-8D22-C421D3F4384D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4E773F-5344-430E-8D22-C421D3F4384D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4E773F-5344-430E-8D22-C421D3F4384D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E3EE58-BEF5-4AE4-B7A5-671F2A637E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E3EE58-BEF5-4AE4-B7A5-671F2A637E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E3EE58-BEF5-4AE4-B7A5-671F2A637E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E3EE58-BEF5-4AE4-B7A5-671F2A637E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
