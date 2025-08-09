@@ -13,7 +13,7 @@ Logika oparta na strukturze powiązań pracowników.
 ```csharp
 var structures = employeeStructureService.FillEmployeesStructure(employees);
 var level = employeeStructureService.GetSuperiorRowOfEmployee(3, 1); // np. 2
-
+```
 **Pliki w projekcie:**
 - `Models/Employee.cs` – model pracownika
 - `Models/EmployeeStructure.cs` – model relacji
@@ -37,8 +37,7 @@ await vacationQueries.GetUsedVacationDaysForCurrentYearAsync();
 
 // c) Zespoły bez urlopów w 2019
 await vacationQueries.GetTeamsWithoutVacationsInYearAsync(2019);
-
-
+```
 **Pliki w projekcie:**
 - `Queries/VacationQueries.cs` – implementacja metod zapytań
 - `Models/VacationReportModel.cs` – model wyników raportów
@@ -52,7 +51,7 @@ Liczenie liczby wolnych dni urlopu dla pracownika na podstawie przydzielonych dn
 **Przykład użycia:**
 ```csharp
 var freeDays = vacationService.CountFreeDaysForEmployee(employeeVacationContext);
-
+```
 **Pliki w projekcie:**
 - `Models/EmployeeVacationContext.cs` – kontekst danych
 - `Models/Vacation.cs`, `Models/VacationPackage.cs` – dane urlopowe
@@ -66,7 +65,7 @@ Sprawdzenie, czy pracownik może wziąć urlop w podanym terminie.
 **Przykład użycia:**
 ```csharp
 var canRequest = vacationService.CanRequestVacation(employeeVacationContext);
-
+```
 **Pliki w projekcie:**
 - `Services/VacationService.cs` – metoda `CanRequestVacation`
 - `Models/EmployeeVacationContext.cs` – dane wejściowe
