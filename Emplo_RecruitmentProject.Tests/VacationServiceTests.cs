@@ -3,7 +3,7 @@ using Emplo_RecruitmentProject.Core.Models;
 using Emplo_RecruitmentProject.Core.Services;
 using static Emplo_RecruitmentProject.Tests.TestData.MockData;
 
-namespace Emplo_RecruitmentProject.Tests.Tests;
+namespace Emplo_RecruitmentProject.Tests;
 
 public class VacationServiceTests
 {
